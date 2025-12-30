@@ -1,0 +1,11 @@
+services:
+  mysql:
+    container_name: mysql-db-ecommerce
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=ecommerce_db
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=123
+    ports:
+      - "3306:3306"
