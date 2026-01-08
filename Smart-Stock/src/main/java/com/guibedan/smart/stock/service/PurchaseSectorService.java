@@ -39,7 +39,7 @@ public class PurchaseSectorService {
             return false;
         }
 
-        return false;
+        return true;
     }
 
 }
